@@ -429,8 +429,38 @@ nav {
 }
 
 
+.regalos {
+    background-image: url(./img-editable/textura3.png);
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
 
+.regalos-content {
+    width: 70%;
+    margin: auto;
+}
+.regalos .titulo-regalo {
+     font-family: var(--font-principal);
+    color: var(--color-principal);
+    font-size: 2.6rem;
+     padding: 0;
+    margin: 0;
+}
+.regalos p {
+    padding: 15px 0 ;
+    margin: 0;
+    height: auto;
+     font-size: 1.4rem;
+    color: var(--color-principal);
+    font-family: var(--font-secundaria);
+}
 /*FYQ*/
 
 .accordion {
